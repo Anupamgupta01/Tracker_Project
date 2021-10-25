@@ -10,19 +10,20 @@ dotenv.config();
 app.use(fileuploader());
 app.use(cors());
 
-app.use(express.urlencoded({ extended: true }))
-const url = "mongodb+srv://kunal:<YXtrETofa9dhQOgy>@cluster0.valth.mongodb.net/Whistlers?retryWrites=true&w=majority"
+app.use(express.urlencoded({ extended: false }))
 app.use(express.json());
-const PORT = process.env.PORT || 9000;
+const PORT = process.env.PORT;
 
 app.use("/ngo", require("./routes/ngo"));
 app.use("/admin", require("./routes/admin"));
 app.use("/factory", require("./routes/factory"));
 app.use("/public", require("./routes/public"));
-
-mongoose.connect(process.env.mongoDBUrl || url, {useNewUrlParser: true, useUnifiedTopology: true},() => {
-  console.log(`mongonsee connected`);
+// app.get('/',(req,res,next)=>{
+//   res.send("API IS WORKING")
+// })
+mongoose.connect(process.env.mongoDBUrl, {useNewUrlParser: true, useUnifiedTopology: true},() => {
+  console.log(`mongonsee connected ` );
   app.listen(PORT,()=>{
-    console.log('Server is up!')
+    console.log('Server is up!' + PORT)
   });
 });
