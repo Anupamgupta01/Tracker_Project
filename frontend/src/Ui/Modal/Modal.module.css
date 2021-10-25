@@ -1,0 +1,59 @@
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background-color: #d3f7e2;
+
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  left: 35%;
+  transform: translateX(-50%);
+  top: 40%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+@media all and (max-width: 600px) {
+  .Modal {
+    margin: 0;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  .Modal {
+    left: 25%;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .Modal {
+    left: 15%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .Modal {
+    top: 20%;
+    left: 12%;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+}
+
+@media all and (max-width: 440px) {
+  .Modal {
+    top: 20%;
+    left: 5%;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+}

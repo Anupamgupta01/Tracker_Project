@@ -1,0 +1,21 @@
+.App {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+::-webkit-scrollbar {
+  position: fixed;
+  scroll-behavior: smooth;
+  z-index: -1;
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background-color: #b1ecb4;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #04a045;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #04a045;
+}

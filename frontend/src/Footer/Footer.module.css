@@ -1,0 +1,264 @@
+.footer {
+  font-family: "Montserrat", sans-serif;
+
+  text-align: center;
+  background-color: #0d395a;
+  color: rgb(233, 233, 233);
+  padding: 5px;
+  width: 100vw;
+  margin: auto;
+  margin-top: 100px;
+  z-index: 50000;
+
+  font-size: 16px;
+  position: relative;
+  box-shadow: 0 0 10px rgb(83, 83, 83);
+  padding: 0;
+  padding-top: 100px;
+}
+
+.img,
+.img2 {
+  position: absolute;
+  top: -60px;
+  height: 150px;
+  right: 80px;
+}
+.img2 {
+  left: -11px;
+  top: -60px;
+}
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 70px;
+  flex-wrap: wrap;
+}
+
+.fitemli {
+  list-style-type: none;
+  width: 30%;
+  flex: 30%;
+  text-align: center;
+  padding-left: 0;
+}
+
+.fitemli h2 {
+  font-size: 26px;
+  letter-spacing: 2px;
+  color: #8cdaa6;
+}
+
+.fitemli h2::after {
+  margin: auto;
+  width: 100px;
+  text-align: center;
+  background-color: #04a045;
+  content: " ";
+  border: 1px solid #04a045;
+  margin-left: 20px;
+}
+.fitems {
+  margin: 10px 0;
+}
+.fitems li {
+  margin: 10px 0;
+}
+.fitemli li {
+  display: block;
+}
+.fitems li a:link,
+.fitems li a:visited {
+  text-shadow: 1px 0 2px #04a045;
+  color: rgb(223, 223, 223);
+  font-size: 110%;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.fitems li a:hover {
+  cursor: pointer;
+  color: #1dc563;
+}
+.last,
+.last2 {
+  padding: 20px 0;
+  font-size: 130%;
+  letter-spacing: 4px;
+}
+.last2 {
+  padding: 0 0 20px;
+}
+
+.fitemsm {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  text-align: center;
+  width: 60vw;
+}
+.fitemsm .fitemli {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fitemli li a:link,
+.fitemli li a:visited {
+  color: white;
+}
+
+.fitemli li a:hover,
+.fitemli li a:active {
+  color: #FF3100;
+}
+
+@media (max-width: 767px) {
+  .last,
+  .last2 {
+    font-size: 110%;
+  }
+
+  .fitems li a:link,
+  .fitems li a:visited {
+    font-size: 100%;
+  }
+  .fitems {
+    flex: 30%;
+  }
+}
+@media (max-width: 557px) {
+  .last,
+  .last2 {
+    font-size: 100%;
+  }
+  .fitems li a:link,
+  .fitems li a:visited {
+    font-size: 80%;
+  }
+  .flex {
+    justify-content: center;
+    margin: 5px 20px;
+  }
+  .footer {
+    min-height: 432px;
+  }
+}
+
+.air {
+  position: absolute;
+  top: -50px;
+  background-color: #087535;
+  width: 60%;
+  left: 20%;
+  height: 150px;
+  box-shadow: 0 0 10px rgb(51, 51, 51);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.air h3 {
+  font-weight: 100px;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
+.fifty {
+  width: 100%;
+}
+.but1,
+.but2 {
+  margin: 10px;
+  display: inline-block;
+  padding: 10px 30px;
+  border: 1px solid #04a045;
+  border-radius: 100px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-align: center;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  text-transform: uppercase;
+  width: 30%;
+  font-size: 16px;
+}
+
+.but1:link,
+.but1:visited {
+  background-color: #04a045;
+  margin-right: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.but1:hover,
+.but1:active {
+  background-color: rgb(233, 233, 233);
+  color: #05662d;
+  border: 1px solid #04a045;
+  font-weight: 500;
+  letter-spacing: 3px;
+  box-shadow: 0 0 10px white;
+}
+
+.but2:link,
+.but2:visited {
+  color: white;
+  border-color: white;
+  background-color: transparent;
+  font-weight: 500;
+}
+.but2:hover,
+.but2:active {
+  background-color: rgb(233, 233, 233);
+  color: #017c34;
+  border: 1px solid #04a045;
+  font-weight: 500;
+  letter-spacing: 3px;
+  box-shadow: 0 0 10px white;
+}
+
+@media all and (max-width: 740px) {
+  .air {
+    width: 80vw;
+    left: 10vw;
+    margin: auto;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .air {
+    width: 90vw;
+    left: 5vw;
+    margin: auto;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .footer {
+    padding: 0;
+    padding-top: 150px;
+  }
+  .air {
+    width: 96vw;
+    left: 2vw;
+    margin: auto;
+    height: 200px;
+    box-shadow: 0 0 5px rgb(87, 87, 87);
+  }
+  .but1,
+  .but2 {
+    width: 80%;
+    margin: 10px auto;
+    padding: 8px;
+    font-size: 14px;
+  }
+  .but1:link,
+  .but1:visited {
+    margin-right: 0;
+  }
+}
