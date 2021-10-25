@@ -28,7 +28,7 @@ const LoginPage = () => {
   const sawoConfig = {
     onSuccess: sawoLoginCallback, //required,
     identifierType: "phone_number_sms", //required, must be one of: 'email', 'phone_number_sms',
-    apiKey: "7e825ffb-065c-48c0-ac08-0a9cd9644154", // required, get it from sawo dev.sawolabs.com,
+    apiKey: "43fdf3b6-db33-48c7-b545-71241d34e5c9", // required, get it from sawo dev.sawolabs.com,
     containerHeight: "250px", // the login container height, default is 230px
   };
 
