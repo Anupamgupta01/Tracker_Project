@@ -44,7 +44,7 @@ const Mainpage = () => {
           </h1>
           <div className={styles.fifty}>
             <Link to="/admin/add" className={styles.but2}>
-              Add Factories/Organization  
+              Add Factories/SuperVisors 
             </Link>
           </div>
         </div>

@@ -37,7 +37,7 @@ const Header = () => {
           {/* <img src={img} alt="Logo" className={styles.flash} /> */}
 
           <h2 className={styles.name}>
-            <NavLink to="/admin/home">Whistler!</NavLink>
+            <NavLink to="/admin/home">TRACKER!</NavLink>
           </h2>
         </div>
         <ul className={styles.flex}>

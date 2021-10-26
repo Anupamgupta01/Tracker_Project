@@ -128,7 +128,7 @@ const Add = () => {
           {open2 ? (
             <div className={styles.close1}>Close Form -</div>
           ) : (
-            <div className={styles.add1}>Add a new N.G.O +</div>
+            <div className={styles.add1}>Add a new supervisor +</div>
           )}
         </div>
 
@@ -136,7 +136,7 @@ const Add = () => {
           <div className={styles.imgback}>
             <img src={img} className={styles.img} />
           </div>
-          <div className={open2 ? styles.tag : styles.hidden}>Add N.G.O.</div>
+          <div className={open2 ? styles.tag : styles.hidden}>Add supervisor</div>
           <input
             type="text"
             placeholder="N.G.O. Name"

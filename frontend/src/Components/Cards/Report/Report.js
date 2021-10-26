@@ -27,7 +27,7 @@ const Report = (props) => {
           </div>
         </div>
         <div className={styles.one}>
-          <p>NGO :</p>
+          <p>Supervisor Name:</p>
           <div className={styles.group}>{props.ngo}</div>
         </div>
         <div className={styles.one}>
