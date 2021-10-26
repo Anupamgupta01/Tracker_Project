@@ -56,17 +56,17 @@ const Admin_Auth = () => {
           <div className={styles.imageprofile}>
             {/* <img src={Img1} alt="logo pimage" className={styles.logo} /> */}
             <div className={styles.box1}>
-              Wh
-              <span className={styles.do}>I</span>stler !
+              TR
+              <span className={styles.do}>A</span>CKER !
             </div>
           </div>
         </div>
-
+{/* 
         <div className={styles.fifty}>
           <div className={styles.select}>
             <Link to="/help">Help</Link>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className={styles.box}>
         {redirect ? <Redirect to="/admin/home" /> : null}
@@ -96,10 +96,10 @@ const Admin_Auth = () => {
       <div className={styles.footerbar}>
         <div className={styles.loc}>
           <p className={styles.same}>
-            Environmental Issues <span className={styles.err}>© Error 404</span>
+            Tracker <span className={styles.err}>© Angry Nerds</span>
           </p>
         </div>
-        <ul>
+        {/* <ul>
           <li>
             <a href="https://github.com/adityasingh03" target="_blank">
               <GoMarkGithub />
@@ -123,7 +123,7 @@ const Admin_Auth = () => {
               <MdCall />
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
 
       <ParticlesBg type="cobweb" color="#33d677" bg={true} />

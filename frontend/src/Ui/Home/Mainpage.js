@@ -40,19 +40,16 @@ const Mainpage = () => {
                 <Cursor />
               </span>
             </div>
-            Be <span className={styles.typewriter}>A Whistler!</span>
+            Be <span className={styles.typewriter}>A TRACKER!</span>
           </h1>
           <div className={styles.fifty}>
-            <Link to="/help" className={styles.but1}>
-              Know More...
-            </Link>
             <Link to="/admin/add" className={styles.but2}>
-              Add Institutions
+              Add Factories/Organization  
             </Link>
           </div>
         </div>
       </div>
-      <h1 className={styles.title}>Stats</h1>
+      {/* <h1 className={styles.title}>Stats</h1>
       <div className={styles.footwhite}>
         <ul className={styles.footerul}>
           <li>
@@ -112,7 +109,7 @@ const Mainpage = () => {
             </div>
           </li>
         </ul>
-      </div>
+      </div> */}
       <h1 className={styles.title}>Further</h1>
       <Info />
       <Footer />

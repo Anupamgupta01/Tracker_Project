@@ -76,7 +76,7 @@ const Footer = () => {
   }
   return (
     <div className={styles.footer}>
-      <div className={styles.air}>
+      {/* <div className={styles.air}>
         <h3>Did you like our initiative?</h3>
         <div className={styles.fifty}>
           <Link to="/help" className={styles.but1}>
@@ -86,7 +86,7 @@ const Footer = () => {
             Your Ideas
           </Link>
         </div>
-      </div>
+      </div> */}
       <div className={styles.flex}>
         <div className={styles.fitems}>{routes}</div>
         <div className={styles.fitems}>
@@ -131,7 +131,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className={styles.last}> Social Media Handles</div>
+      {/* <div className={styles.last}> Social Media Handles</div>
 
       <div className={styles.fitemsm}>
         <ul className={styles.fitemli}>
@@ -158,9 +158,9 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <br />
+      <br /> */}
 
-      <div className={styles.last2}>...Whistler © Error 404...</div>
+      <div className={styles.last2}>...Tracker © Angry Nerds...</div>
     </div>
   );
 };

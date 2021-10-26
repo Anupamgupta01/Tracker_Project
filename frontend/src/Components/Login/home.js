@@ -17,17 +17,17 @@ function Home() {
           <div className={styles.imageprofile}>
             {/* <img src={Img1} alt="logo pimage" className={styles.logo} /> */}
             <div className={styles.box}>
-              Wh
-              <span className={styles.do}>I</span>stler !
+              TRA
+              <span className={styles.do}>C</span>KER !
             </div>
           </div>
         </div>
-
+{/* 
         <div className={styles.fifty}>
           <div className={styles.select}>
             <Link to="/help">Help</Link>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className={styles.flex}>
         <div className={styles.cor}>
@@ -61,7 +61,7 @@ function Home() {
               </h3>
             </Link>
           </div>
-          <div className={styles.cont2}>Having Problem Logging In?</div>
+          {/* <div className={styles.cont2}>Having Problem Logging In?</div> */}
         </div>
       </div>
       <div>
@@ -69,8 +69,8 @@ function Home() {
           <div className={styles.loc}>
             {/* <MdCall className={styles.icon} /> */}
             <p className={styles.same}>
-              Environmental Issues{" "}
-              <span className={styles.err}>© Error 404</span>
+              Tracker{" "}
+              <span className={styles.err}>© Angry Nerds</span>
             </p>
 
             {/* <span style={{ fontsize: "10px" }}>© Error 404</span> */}
@@ -82,7 +82,7 @@ function Home() {
               Call
             </a> */}
           </div>
-          <ul>
+          {/* <ul>
             <li>
               <a href="https://github.com/adityasingh03" target="_blank">
                 <GoMarkGithub />
@@ -106,7 +106,7 @@ function Home() {
                 <MdCall />
               </a>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>
