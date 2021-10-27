@@ -79,7 +79,7 @@ const NGO_Auth = () => {
         <div className={styles.imgback}>
           <img src={img} className={styles.img} />
         </div>
-        <div className={styles.tag}>SUPER-ADVISOR</div>
+        <div className={styles.tag}>SUPERVISOR</div>
         <input
           type="text"
           placeholder="SUPER-ADVISOR Email"
