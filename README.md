@@ -18,12 +18,7 @@ Targeting problems like environmental pollution, illegal and untreated waste dis
 - There is also a portal for the general public where they can file any complaint if they are suspicious about the waste disposal of any factory.
 - The complaints are also stored on the ethereum blockchain so they can't be deleted or change in any way.
 - Public can also upload proofs in the form of photographs/documents which will be stored on IPFS. 
-- There is also a chatbot for the public to resolve the general queries.
 
-
-#### Live:- https://whistlerr.netlify.app/
-#### Whistler contract address:- 0x6957EC212D8B92a643369CcAa31138E88C3558b5 (Rinkeby Testnet)
-#### RandomNumberConsumer contract address:- 0xaf04911b7e270c6b78430f8beE2f6e53559446B5 (Rinkeby Testnet)
 
 #### dummy Data for Login:-
 admin = {Username: admin,Password: password}
