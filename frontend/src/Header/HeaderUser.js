@@ -37,7 +37,7 @@ const HeaderUser = () => {
           {/* <img src={img} alt="Logo" className={styles.flash} /> */}
 
           <h2 className={styles.name}>
-            <NavLink to="/user/home">Whistler!</NavLink>
+            <NavLink to="/user/home">Tracker!</NavLink>
           </h2>
         </div>
         <ul className={styles.flex}>
@@ -57,9 +57,6 @@ const HeaderUser = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/help" activeClassName={styles.active}>
-              Help
-            </NavLink>
           </li>
         </ul>
         <NavLink to="/" className={styles.right} onClick={logoutHandler}>
@@ -101,15 +98,6 @@ const HeaderUser = () => {
                 onClick={clickhandler}
               >
                 Previous
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/help"
-                activeClassName={styles.active2}
-                onClick={clickhandler}
-              >
-                Help
               </NavLink>
             </li>
             <li>

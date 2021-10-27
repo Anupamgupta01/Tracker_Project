@@ -43,7 +43,7 @@ const Info2 = () => {
           Report
         </Link>
       </div>
-      <div className={styles.inside3}>
+      {/* <div className={styles.inside3}>
         <div className={styles.icon3}>
           <FiHelpCircle
             size={26}
@@ -61,7 +61,7 @@ const Info2 = () => {
         <Link to="/help" className={styles.but1}>
           Help
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -40,19 +40,19 @@ const Mainpage3 = () => {
                 <Cursor />
               </span>
             </div>
-            Be <span className={styles.typewriter}>A Whistler!</span>
+            Be <span className={styles.typewriter}>A Tracker!</span>
           </h1>
           <div className={styles.fifty}>
-            <Link to="Help" className={styles.but1}>
+            {/* <Link to="Help" className={styles.but1}>
               Know More...
-            </Link>
-            <Link to="Help" className={styles.but2}>
+            </Link> */}
+            {/* <Link to="Help" className={styles.but2}>
               New Donor
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
-      <h1 className={styles.title}>Stats</h1>
+      {/* <h1 className={styles.title}>Stats</h1>
       <div className={styles.footwhite}>
         <ul className={styles.footerul}>
           <li>
@@ -112,7 +112,7 @@ const Mainpage3 = () => {
             </div>
           </li>
         </ul>
-      </div>
+      </div> */}
       <h1 className={styles.title}>Further</h1>
       <Info3 />
       <Footer />

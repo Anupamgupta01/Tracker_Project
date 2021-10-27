@@ -63,27 +63,26 @@ const NGO_Auth = () => {
           <div className={styles.imageprofile}>
             {/* <img src={Img1} alt="logo pimage" className={styles.logo} /> */}
             <div className={styles.box1}>
-              Wh
-              <span className={styles.do}>I</span>stler !
+              Tracker
             </div>
           </div>
         </div>
 
-        <div className={styles.fifty}>
+        {/* <div className={styles.fifty}>
           <div className={styles.select}>
             <Link to="/help">Help</Link>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className={styles.box}>
         {redirect ? <Redirect to="/ngo/home" /> : null}
         <div className={styles.imgback}>
           <img src={img} className={styles.img} />
         </div>
-        <div className={styles.tag}>N.G.O.</div>
+        <div className={styles.tag}>SUPER-ADVISOR</div>
         <input
           type="text"
-          placeholder="NGO Email"
+          placeholder="SUPER-ADVISOR Email"
           onChange={(event) => setEmail(event.target.value)}
           className={styles.inp}
         />
@@ -103,10 +102,10 @@ const NGO_Auth = () => {
       <div className={styles.footerbar}>
         <div className={styles.loc}>
           <p className={styles.same}>
-            Environmental Issues <span className={styles.err}>© Error 404</span>
+            Tracker <span className={styles.err}>© Angry Nerds</span>
           </p>
         </div>
-        <ul>
+        {/* <ul>
           <li>
             <a href="https://github.com/adityasingh03" target="_blank">
               <GoMarkGithub />
@@ -130,7 +129,7 @@ const NGO_Auth = () => {
               <MdCall />
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
 
       <ParticlesBg type="cobweb" color="#33d677" bg={true} />

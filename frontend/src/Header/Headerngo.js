@@ -34,7 +34,7 @@ const Headerngo = () => {
           {/* <img src={img} alt="Logo" className={styles.flash} /> */}
 
           <h2 className={styles.name}>
-            <NavLink to="/nog/home">Whistler!</NavLink>
+            <NavLink to="/nog/home">Tracker!</NavLink>
           </h2>
         </div>
         <ul className={styles.flex}>
@@ -46,11 +46,6 @@ const Headerngo = () => {
           <li>
             <NavLink to="/ngo/inspect" activeClassName={styles.active}>
               Inspect
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/help" activeClassName={styles.active}>
-              Help
             </NavLink>
           </li>
           <NavLink to="/" className={styles.right} onClick={logoutHandler}>

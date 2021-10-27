@@ -45,7 +45,7 @@ const Info3 = () => {
           Donate
         </Link>
       </div>
-      <div className={styles.inside3}>
+      {/* <div className={styles.inside3}>
         <div className={styles.icon3}>
           <FiList
             size={25}
@@ -62,7 +62,7 @@ const Info3 = () => {
         <Link to="/help" className={styles.but1}>
           help
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

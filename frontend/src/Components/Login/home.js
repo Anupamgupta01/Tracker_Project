@@ -49,7 +49,7 @@ function Home() {
                 <VscOrganization className={styles.icon} />
               </div>
               <h3>
-                <span>NGO</span>
+                <span>Super-advisor</span>
               </h3>
             </Link>
             <Link to="/public/auth" className={styles.bottom}>

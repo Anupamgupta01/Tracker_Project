@@ -118,7 +118,7 @@ const Add = () => {
             onClick={onCreateFactory}
             className={open1 ? styles.btn : styles.hidden}
           >
-            Add Fatory
+            Add Factory
           </button>
         </div>
       </div>
@@ -139,14 +139,14 @@ const Add = () => {
           <div className={open2 ? styles.tag : styles.hidden}>Add supervisor</div>
           <input
             type="text"
-            placeholder="N.G.O. Name"
+            placeholder="supervisor Name"
             onChange={(event) => setNGOName(event.target.value)}
             className={open2 ? styles.inp : styles.hidden}
           />
 
           <input
             type="text"
-            placeholder="N.G.O. Email"
+            placeholder="supervisor Email"
             onChange={(event) => setNGOEmail(event.target.value)}
             className={open2 ? styles.inp : styles.hidden}
           />
@@ -155,7 +155,7 @@ const Add = () => {
             onClick={onCreateNGO}
             className={open2 ? styles.btn : styles.hidden}
           >
-            Add N.G.O.
+            Add supervisor
           </button>
         </div>
       </div>
